@@ -16,7 +16,7 @@
         "oro/platform": "1.10.*"
     },
     "autoload": {
-        "psr-0": { "Ds\\Bundle\\BpmPmBundle": "" }
+        "psr-4": { "Ds\\Bundle\\BpmPmBundle\\": "" }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
