@@ -12,7 +12,7 @@ class PmApi extends AbstractApi
     /**
      * {@inheritdoc}
      */
-    public function getStartFormKey($processDefinitionId)
+    public function getStartFormKey($definitionId)
     {
 
     }
@@ -20,7 +20,7 @@ class PmApi extends AbstractApi
     /**
      * {@inheritdoc}
      */
-    public function startInstance($processDefinitionId, array $variables = [])
+    protected function _startInstance($definitionId, array $variables = [])
     {
 
     }
